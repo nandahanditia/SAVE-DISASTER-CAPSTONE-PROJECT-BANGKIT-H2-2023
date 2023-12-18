@@ -31,7 +31,6 @@
     }
     ```
 
-    ```
   - **[POST]** _User Logout_
   URL Route:
   `/auth/logout`
@@ -45,16 +44,14 @@
       "token": "user_access_token"
     }
     ```
-
-    Response:
+     Response:
 
     ```
-   {
+    {
       "message": "Logout successful"
     }
     ```
 
-    ```
 - ### User Registration
 
   - **[POST]** _User Registration_
@@ -64,7 +61,6 @@
     Additional Route: `<string:id>`
 
     Request:
-
     ```
    {
       "name": "User Name",
@@ -74,7 +70,6 @@
     ```
 
     Response:
-
     ```
     {
       "error": false,
@@ -85,6 +80,4 @@
         "name": "User Name"
       }
     }
-    ```
-
     ```
